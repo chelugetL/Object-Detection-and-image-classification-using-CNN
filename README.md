@@ -1,6 +1,6 @@
 # Object-Detection-and-image-classification-using-CNN
 Datasets used: 17 category flower dataset and Blood RBC dataset
-# Proposed CNN Architecture for Image Classification:
+# CNN Architecture for Image Classification:
 a. Baseline architecture.
 Baseline model created from scratch was used, it contains two False Negatives and three hidden layers. The shape is made up of 32, 64 and 128. ‘ReLu’ is used in this setting for activation, 2 by 2 for pooling size. ‘Softmax’ and ‘ReLu’ activation function was used as dense function (128 and 512). ‘Categorical cross entropy’ is used as the loss function and Adam as the optimiser which changes the learning rate during the training process.
 b. Customized architecture.
